@@ -1,4 +1,4 @@
-# Micorosoft365.Toolbox
+# Microsoft365.Toolbox
 Functions for Microsoft365/Office365 Management
 
 ## Installtion
