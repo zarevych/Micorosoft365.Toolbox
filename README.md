@@ -2,8 +2,13 @@
 Functions for Microsoft365/Office365 Management
 
 ## Installtion
-
+```bash
+PS> Install-Module -Name Microsoft365.Toolbox
+```
 ## Usage
+```bash
+PS> Import-Module Microsoft365.Toolbox
+```
 
 ## Commands / Functions
 
