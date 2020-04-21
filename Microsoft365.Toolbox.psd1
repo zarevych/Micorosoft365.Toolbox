@@ -69,7 +69,7 @@ Description = 'Functions for Microsoft365/Office365 Management'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Get-MsolCompanyName', 'Get-MsolDefaultDomain'
+FunctionsToExport = 'Get-MsolCompanyName', 'Get-MsolDefaultDomain',
                     'Get-MsolUserGroup',
                     'Get-Office365ServiceHealthStatus', 'Get-Office365ServiceHealthToken',
                     'Test-IsMsolUserLicensed', 'Test-MsolUser', 'Test-MsolUserSignin'
