@@ -24,7 +24,15 @@ Get-Office365ServiceHealthStatus
 ```bash
 Get-Office365ServiceHealthToken
 ```
+### Test-IsMsolUserLicensed
+```bash
+Test-MsolUser
+```
 ### Test-MsolUser
+```bash
+Test-MsolUser
+```
+### Test-MsolUserSignin
 ```bash
 Test-MsolUser
 ```
