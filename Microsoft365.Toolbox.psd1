@@ -12,7 +12,7 @@
 RootModule = 'Microsoft365.Toolbox.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1912'
+ModuleVersion = '0.2001'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -69,9 +69,10 @@ Description = 'Functions for Microsoft365/Office365 Management'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Get-MsolUserGroup',
-                    'Get-Office365ServiceHealthStatus', 'Get-Office365ServiceHealthToken.ps1',
-                    'Test-MsolUser.ps1'
+FunctionsToExport = 'Get-MsolCompanyName', 'Get-MsolDefaultDomain'
+                    'Get-MsolUserGroup',
+                    'Get-Office365ServiceHealthStatus', 'Get-Office365ServiceHealthToken',
+                    'Test-IsMsolUserLicensed', 'Test-MsolUser', 'Test-MsolUserSignin'
 #FunctionsToExport = '*'
 
 
